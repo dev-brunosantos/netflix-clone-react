@@ -1,0 +1,20 @@
+{
+    "assistaNaTv": {
+        "titulo": "Aproveite na TV",
+        "txt": "Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.",
+        "video": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+    },
+    "dispositivos": {
+        "titulo": "Assista onde quiser",
+        "txt": "Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.",
+        "video": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+    },
+    "infantil": {
+        "titulo": "Crie perfis para crianças",
+        "txt": "Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso."
+    },
+    "download": {
+        "titulo": "Baixe séries para assistir offline",
+        "txt": "Assista em um avião, trem ou submarino..."
+    }
+}

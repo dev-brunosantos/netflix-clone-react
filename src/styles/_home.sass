@@ -1,0 +1,94 @@
+@mixin altuta-largura
+    width: 100%
+    min-height: 100vh
+    max-height: 100%
+
+    
+.part-1
+    @include altuta-largura
+    background: url('../../public/background-home.jpg') no-repeat center
+    background-size: 123%
+    background-position-y: -13.2rem
+    background-position-x: -10.2rem
+    .part-1_menu
+        width: 80%
+        height: 80px
+        position: absolute
+        top: 0
+        .options
+            // width: 310px
+            width: 18rem
+            position: absolute
+            right: 0
+            z-index: 999
+            justify-content: space-around
+            select
+                width: 150px
+                height: 35px
+                border-radius: 5px
+                color: #fff
+                text-align: center
+                font-size: 14px
+                font-weight: bold
+                background-color: transparent
+            .button, button
+                width: 80px
+                height: 35px
+                padding: 8px
+                font-size: 14px
+    .part-1_textos
+        width: 68%
+        height: 60%
+        position: absolute
+        bottom: 1rem
+        z-index: 999
+        color: #fff
+        h1
+            font-size: 3rem
+            margin-bottom: -2rem
+        p
+            font-size: 24px
+            text-align: center
+            line-height: 2.5rem
+        div
+            width: 60%
+            height: 80px
+            position: relative
+            bottom: 3rem
+            input
+                width: 70%
+                height: 60px
+                border: transparent
+                border-radius: 5px
+                padding-left: 20px
+                color: #fff
+                font-size: 16px
+                background-color: #0000009c
+                &::placeholder
+                    color: #cacaca
+            button
+                width: 30%
+                height: 60px
+                font-size: 1.5rem
+                margin-left: 1rem
+    .planos
+        width: 90%
+        height: 8.5rem
+        z-index: 999
+        position: absolute
+        top: 94%
+        background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% )
+.part-2
+    @include altuta-largura
+.part-3
+    @include altuta-largura
+    padding: 72px 0
+    background-color: #000
+
+.background-color
+    width: 100%
+    height: 100vh
+    position: absolute
+    top: 0
+    left: 0
+    background-image: linear-gradient(to bottom, #000000a1 30%, #33333398, #000000a1 50%)

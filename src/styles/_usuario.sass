@@ -1,0 +1,47 @@
+.usuario
+    height: 100vh
+    background-image: linear-gradient(180deg,rgba(0,0,0,.8) 20%,transparent)
+    .container 
+        min-width: 620px
+        min-height: 400px
+        h1
+            color: #fff
+            // font-size: 32px
+            font-size: 3rem
+            font-weight: 500
+        .container-perfil
+            min-width: 620px
+            max-width: 80%
+            height: 200px
+            justify-content: space-evenly
+            flex-wrap: wrap
+            .card-perfil
+                width: 180px
+                min-height: 200px
+                cursor: pointer
+                img
+                    width: 75%
+                    height: 70%
+                    border-radius: 10px
+                p
+                    color: #737373
+                    font-size: 18px
+                    font-weight: 500
+                    margin: 2%
+            .card-perfil:hover
+                img 
+                    border: solid #fff
+                p 
+                    color: #fff
+        .gerenciar-perfil
+            width: 180px
+            height: 40px
+            border: 1px solid #737373
+            color: #737373
+            font-size: 16px
+            font-weight: bold
+            cursor: pointer
+            background-color: transparent
+            &:hover
+                border: 1px solid #fff
+                color: #fff
